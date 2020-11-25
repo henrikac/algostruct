@@ -1,0 +1,5 @@
+# Vim
+*.swp
+
+# Go
+main.go
