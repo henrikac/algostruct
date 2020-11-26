@@ -8,6 +8,6 @@ A collection of data structures of algorithms.
 * Refresh my data structure and algorithm knowledge.
 
 ### Data Structures
-* [ ] Stack
+* [X] Stack
 * [ ] Queue
 
