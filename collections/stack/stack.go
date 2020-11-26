@@ -17,8 +17,8 @@ func New() *Stack {
 	return &Stack{nil, 0}
 }
 
-// Returns the item at the top of the Stack without removing it
-// Returns an error if the Stack is empty
+// Returns the value of the node at the top of the Stack without removing it
+// if the Stack is not empty; otherwise, returns an error
 func (s *Stack) Peek() (interface{}, error) {
 	if s.length < 1 {
 		err := errors.New("Cannot peek an empty Stack")
@@ -27,20 +27,20 @@ func (s *Stack) Peek() (interface{}, error) {
 	return s.top.value, nil
 }
 
-// Returns the number of items in the Stack
+// Returns the number of nodes in the Stack
 func (s *Stack) Len() int {
 	return s.length
 }
 
-// Inserts an item at the top of the Stack
+// Inserts a node at the top of the Stack
 func (s *Stack) Push(item interface{}) {
 	n := &node{item, s.top}
 	s.top = n
 	s.length++
 }
 
-// Removes and returns the item at the top of the Stack
-// Returns an error if the Stack is empty
+// Removes and returns the value of the node at the top of the Stack
+// if the Stack is not empty; otherwise, returns an error
 func (s *Stack) Pop() (interface{}, error) {
 	if s.length == 0 {
 		err := errors.New("Cannot pop items of an empty Stack")

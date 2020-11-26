@@ -23,7 +23,7 @@ func (q *Queue) Len() int {
 	return q.length
 }
 
-// Returns the value of the node at the beginning of the Queue
+// Returns the value of the node at the beginning of the Queue without removing it
 // if the Queue is not empty; otherwise, returns an error
 func (q *Queue) Peek() (interface{}, error) {
 	if q.length < 1 {
