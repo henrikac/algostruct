@@ -1,6 +1,6 @@
 # AlgoStruct
 
-A collection of data structures of algorithms.
+A collection of data structures and algorithms.
 
 ## Purpose of this project
 * Make learning [Go](https://golang.org/) more fun.
