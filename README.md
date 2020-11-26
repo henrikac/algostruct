@@ -9,5 +9,5 @@ A collection of data structures of algorithms.
 
 ### Data Structures
 * [X] Stack
-* [ ] Queue
+* [X] Queue
 
