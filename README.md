@@ -11,3 +11,9 @@ A collection of data structures of algorithms.
 * [X] Stack
 * [X] Queue
 
+### Algorithms
+
+#### Sorting
+* [ ] Bubble sort
+* [ ] Insertion sort
+* [ ] Merge sort
