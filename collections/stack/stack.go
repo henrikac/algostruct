@@ -20,7 +20,7 @@ package stack
 import "errors"
 
 type Stack struct {
-	top		*node
+	top	*node
 	length	int
 }
 
