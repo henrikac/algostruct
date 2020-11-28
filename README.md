@@ -14,6 +14,6 @@ A collection of data structures and algorithms.
 ### Algorithms
 
 #### Sorting
-* [ ] Bubble sort
+* [X] Bubble sort
 * [ ] Insertion sort
 * [ ] Merge sort
