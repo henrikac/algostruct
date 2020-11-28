@@ -22,9 +22,6 @@ import "sort"
 // Sorts a collection using bubble sort
 func Sort(collection sort.Interface) {
 	n := collection.Len()
-	if n == 0 {
-		return
-	}
 
 	for n >= 1 {
 		counter := 0
