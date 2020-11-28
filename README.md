@@ -10,6 +10,7 @@ A collection of data structures and algorithms.
 ### Data Structures
 * [X] Stack
 * [X] Queue
+* [ ] Set
 
 ### Algorithms
 
