@@ -35,14 +35,17 @@ func Sort(collection sort.Interface) {
 	}
 }
 
+// Sorts a slice of integers using bubble sort
 func Ints(ints []int) {
 	Sort(sort.IntSlice(ints))
 }
 
+// Sorts a slice of strings using bubble sort
 func Strings(strs []string) {
 	Sort(sort.StringSlice(strs))
 }
 
+// Sorts a slice of float64 using bubble sort
 func Floats(floats []float64) {
 	Sort(sort.Float64Slice(floats))
 }

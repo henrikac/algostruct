@@ -29,14 +29,17 @@ func Sort(collection sort.Interface) {
 	}
 }
 
+// Sort a slice of integers using insertion sort
 func Ints(ints []int) {
 	Sort(sort.IntSlice(ints))
 }
 
+// Sorts a slice of strings using insertion sort
 func Strings(strs []string) {
 	Sort(sort.StringSlice(strs))
 }
 
+// Sorts a slice of float64 using insertion sort
 func Floats(floats []float64) {
 	Sort(sort.Float64Slice(floats))
 }
