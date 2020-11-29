@@ -11,6 +11,8 @@ A collection of data structures and algorithms.
 * [X] Stack
 * [X] Queue
 * [ ] Set
+	* [ ] Ordered set
+	* [ ] Unordered set
 
 ### Algorithms
 
