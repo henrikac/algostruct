@@ -29,3 +29,14 @@ func Sort(collection sort.Interface) {
 	}
 }
 
+func Ints(ints []int) {
+	Sort(sort.IntSlice(ints))
+}
+
+func Strings(strs []string) {
+	Sort(sort.StringSlice(strs))
+}
+
+func Floats(floats []float64) {
+	Sort(sort.Float64Slice(floats))
+}
